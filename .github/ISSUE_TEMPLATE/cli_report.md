@@ -10,7 +10,7 @@ forms cannot take a pre-filled body, and blank issues are disabled, so a
 markdown template is the only path that preserves what the CLI assembled.
 
 If you reached this by hand, the Bug report form is the better choice:
-https://github.com/mind-code-ai/mind-code/issues/new?template=bug_report.yml
+https://github.com/mind-code-ai/feedback/issues/new?template=bug_report.yml
 
 Before submitting: read what the CLI collected. It includes your version,
 platform and model, and may include paths or command output. Replace anything

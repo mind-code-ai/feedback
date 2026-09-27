@@ -4,7 +4,7 @@ contact_links:
     url: https://app.mindcode.sh
     about: Handled in your dashboard. These involve account details and should never go in a public issue.
   - name: Security vulnerability
-    url: https://github.com/mind-code-ai/mind-code/security/advisories/new
+    url: https://github.com/mind-code-ai/feedback/security/advisories/new
     about: Report privately. A public issue tells everyone about the weakness before there is a fix.
   - name: Documentation
     url: https://mindcode.sh/docs

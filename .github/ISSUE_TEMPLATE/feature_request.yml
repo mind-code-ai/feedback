@@ -9,7 +9,7 @@ body:
         it lets us find an answer you had not thought of.
 
         Please [search existing
-        requests](https://github.com/mind-code-ai/mind-code/issues?q=is%3Aissue+label%3Aenhancement)
+        requests](https://github.com/mind-code-ai/feedback/issues?q=is%3Aissue+label%3Aenhancement)
         first. A reaction on an existing one counts for more than a duplicate.
   - type: textarea
     id: problem

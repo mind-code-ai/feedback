@@ -12,7 +12,7 @@ body:
 
         Billing questions belong in your [dashboard](https://app.mindcode.sh).
         Security vulnerabilities go through
-        [private reporting](https://github.com/mind-code-ai/mind-code/security/advisories/new).
+        [private reporting](https://github.com/mind-code-ai/feedback/security/advisories/new).
   - type: input
     id: version
     attributes:

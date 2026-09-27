@@ -6,7 +6,7 @@ A public issue tells everyone about the weakness before there is a fix, includin
 people who would use it. Report it privately instead:
 
 - Use GitHub's [private vulnerability
-  reporting](https://github.com/mind-code-ai/mind-code/security/advisories/new)
+  reporting](https://github.com/mind-code-ai/feedback/security/advisories/new)
   on this repository, or
 - email **security@mindcode.sh**
 
