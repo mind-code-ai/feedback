@@ -1,0 +1,71 @@
+name: Bug report
+description: Something does not work the way it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Before you post:** logs and stack traces carry repository paths, branch
+        names, file contents and sometimes API keys. Read what you paste and
+        replace anything private. This issue is public immediately, and editing
+        it later does not remove it from the history.
+
+        Billing questions belong in your [dashboard](https://app.mindcode.sh).
+        Security vulnerabilities go through
+        [private reporting](https://github.com/mind-code-ai/mind-code/security/advisories/new).
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Output of `mind --version`
+      placeholder: "0.2.28"
+    validations:
+      required: true
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where did it happen
+      options:
+        - CLI (mind in the terminal)
+        - Web dashboard
+        - VS Code extension
+        - Desktop app
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What you ran and what happened
+      description: The command, the output, and what you expected instead. Paste text rather than a screenshot — text is searchable.
+      placeholder: |
+        $ mind ...
+        <output>
+
+        Expected: ...
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Does it happen every time
+      options:
+        - Every time
+        - Sometimes
+        - Happened once
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "macOS 15.6, Ubuntu 24.04, Windows 11"
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Model in use, provider, whether it worked in an earlier version.
+    validations:
+      required: false

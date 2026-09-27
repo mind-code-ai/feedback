@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Billing, invoices or your account
+    url: https://app.mindcode.sh
+    about: Handled in your dashboard. These involve account details and should never go in a public issue.
+  - name: Security vulnerability
+    url: https://github.com/mind-code-ai/mind-code/security/advisories/new
+    about: Report privately. A public issue tells everyone about the weakness before there is a fix.
+  - name: Documentation
+    url: https://mindcode.sh/docs
+    about: Check the docs before opening an issue.
